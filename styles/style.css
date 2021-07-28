@@ -79,6 +79,18 @@ body {
     grid-template-columns: 9fr 3fr;
     grid-column-gap: 30px;
 }
+.page-title {
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+h2.page-title {
+    font-size: 24px;
+    line-height: 28px;
+}
+h4.page-title {
+    font-size: 18px;
+    line-height: 21px;
+}
 .card-image {
     border-radius: 10px;
     width: 264px;
@@ -118,7 +130,6 @@ body {
 .card-price {
     font-size: 16px;
     line-height: 19px;
-    color: #0A143A;
     margin-bottom: 10px;
     display: block;
 }
@@ -131,4 +142,58 @@ body {
 }
 .card-link {
     text-decoration: none;
+}
+.services {
+    margin-bottom: 37px;
+}
+.service-image {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 7px;
+}
+.service-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.service-text {
+    font-size: 14px;
+    line-height: 16px;
+}
+.service:not(:last-child) {
+    margin-bottom: 25px;
+}
+.sidebar-line {
+    color: #e5e5e5;
+}
+.copy {
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+    margin-top: 18px;
+}
+.copy-item {
+    margin-top: 0;
+}
+.copy-item:not(:last-child) {
+    margin-bottom: 5px;
+}
+.copy-link {
+    text-decoration: underline;
+    color: #C4C4C4;
+}
+.sidebar-menu {
+    margin-top: 16px;
+}
+.sm-item {
+    margin-top: 0;
+}
+.sm-item:not(:last-child) {
+    margin-bottom: 5px;
+}
+.sm-link {
+    text-decoration: none;
+    color: #0A143A;
 }
